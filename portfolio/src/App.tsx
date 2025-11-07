@@ -1,12 +1,12 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { Toaster } from "react-hot-toast"
-import Navigation from "./components/Navigation"
-import Footer from "./components/Footer"
-import Home from "./pages/Home"
-import Projects from "./pages/Projects"
-import ProjectDetail from "./pages/ProjectDetail"
-import Contact from "./pages/Contact"
+import Navigation from "../src/components/Navigation"
+import Footer from "../src/components/Footer"
+import Home from "../src/pages/Home"
+import Projects from "../src/pages/Projects"
+import ProjectDetail from "../src/pages/ProjectDetail"
+import Contact from "../src/pages/Contact"
 
 function App() {
   return (
