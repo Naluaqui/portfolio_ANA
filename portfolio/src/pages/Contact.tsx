@@ -35,7 +35,7 @@ MENSSAGEM: ${formData.message}
     `
     alert(alertMessage)
 
-    toast.success("Message transmitted successfully!", {
+    toast.success("Mensagem Entregue com Sucesso!", {
       icon: "🚀",
       duration: 4000,
     })
